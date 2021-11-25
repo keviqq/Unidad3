@@ -1,0 +1,290 @@
+<script src="index.js"></script>
+<script>
+let corde =[0];
+let barco1 =[0];
+let barco2 =[0];
+let barco3 =[0];
+let barco4 =[0];
+let barco5 =[0];
+let barco6 =[0];
+let barco7 =[0];
+let barco8 =[0];
+let barco9 =[0];
+let barco10 =[0];
+let barco11 =[0];
+let barco12 =[0];
+
+
+let cordes =[0];
+let bar1 =[0];
+let bar2 =[0];
+let bar3 =[0];
+let bar4 =[0];
+let bar5 =[0];
+let bar6 =[0];
+let bar7 =[0];
+let bar8 =[0];
+let bar9 =[0];
+let bar10 =[0];
+let bar11 =[0];
+let bar12 =[0];
+
+const lugar ={
+    barco:"",
+
+}
+const lugarr ={
+  barcoo:"",
+}
+menus();
+
+  function menus() {
+    opcion = parseInt(
+      prompt(
+        "Batalla naval " +
+          "\n" +
+          "1.- Numero de barcos j1" +
+          "\n" +
+          "2.- Numero de barcos j2" +
+          "\n" +
+          "3.- Atacar j1" +
+          "\n" +
+          "4.-Atacar j2 " +
+          "\n" +
+          "5.-Ganaste" +
+          "\n"+ 
+          "6.-Salir" +
+          "\n" 
+      )
+    );
+
+    switch (opcion) {
+      case 1:
+        inscri();
+        break;
+        case 2:
+        inscrit();
+        break;
+      case 3:
+        atack();
+        break;
+        case 4:
+        atack2();
+        break;
+      case 5:
+        win();
+        break;
+      case 6:
+        
+        break;
+      default:
+        break;
+    }
+  }
+function inscri(){
+let posi =prompt("lugar donde poner tres barcos :"+"\n" +"1"+"\n" +"2"+"\n"+"3"+"\n"+"4"+"\n"+"5"+"\n" +"6"+"\n" +"7"+"\n"+"8"+"\n"+"9"+"\n"+"10"+"\n"+"11"+"\n"+"12");
+if (posi== "1") {
+
+bar1.push("barco"+posi);
+
+}else{
+
+}
+if (posi == "2") {
+
+bar2.push("barco"+posi);
+
+}else{
+
+}
+if (posi == "3") {
+
+bar3.push("barco"+posi);
+
+}else{
+
+}
+if (posi == "4") {
+
+bar4.push("barco"+posi);
+
+}else{
+
+}
+if (posi == "5") {
+
+bar5.push("barco"+posi);
+
+}else{
+
+}
+if (posi == "6") {
+
+bar6.push("barco"+posi);
+
+}else{
+
+}
+if (posi == "7") {
+
+bar7.push("barco"+posi);
+
+}else{
+
+}
+if (posi == "8") {
+
+bar8.push("barco"+posi);
+
+}else{
+
+}
+if (posi == "9") {
+
+bar9.push("barco"+posi);
+
+}else{
+
+}
+if (posi == "10") {
+
+bar10.push("barco"+posi);
+
+}else{
+
+}
+if (posi == "11") {
+
+bar11.push("barco"+posi);
+
+}else{
+
+}
+if (posi == "12") {
+
+bar12.push("barco"+posi);
+
+}else{
+
+}
+
+lugarr.barcoo=posi;
+cordes.push("Barco: "+posi);
+alert("listo");
+    menus();
+  }
+
+
+function inscrit(){
+let position =prompt("lugar donde poner tres barcos :"+"\n" +"1"+"\n" +"2"+"\n"+"3"+"\n"+"4"+"\n"+"5"+"\n" +"6"+"\n" +"7"+"\n"+"8"+"\n"+"9"+"\n"+"10"+"\n"+"11"+"\n"+"12");
+if (position == "1") {
+
+barco1.push("barco"+position);
+
+}else{
+
+}
+if (position == "2") {
+
+barco2.push("barco"+position);
+
+}else{
+
+}
+if (position == "3") {
+
+barco3.push("barco"+position);
+
+}else{
+
+}
+if (position == "4") {
+
+barco4.push("barco"+position);
+
+}else{
+
+}
+if (position == "5") {
+
+barco5.push("barco"+position);
+
+}else{
+
+}
+if (position == "6") {
+
+barco6.push("barco"+position);
+
+}else{
+
+}
+if (position == "7") {
+
+barco7.push("barco"+position);
+
+}else{
+
+}
+if (position == "8") {
+
+barco8.push("barco"+position);
+
+}else{
+
+}
+if (position == "9") {
+
+barco9.push("barco"+position);
+
+}else{
+
+}
+if (position == "10") {
+
+barco10.push("barco"+position);
+
+}else{
+
+}
+if (position == "11") {
+
+barco11.push("barco"+position);
+
+}else{
+
+}
+if (position == "12") {
+
+barco12.push("barco"+position);
+
+}else{
+
+}
+
+lugar.barco=position;
+corde.push("Barco: "+position);
+alert("listo");
+    menus();
+  }
+
+
+  function atack() {
+    let numeroSeleccion = parseFloat(prompt("Del 1 al 12 adivina la pocision del barco del ooponente"));
+    console.log(corde[numeroSeleccion]);
+    menus();
+}
+
+function atack2() {
+    let numeroSeleccion = parseFloat(prompt("Del 1 al 12 adivina la pocision del barco del ooponente"));
+    console.log(cordes[numeroSeleccion]);
+    menus();
+}
+
+function win(){
+  alert(" FELICIDADES ACABASTE DE GANAR");
+}
+
+
+
+</script>
