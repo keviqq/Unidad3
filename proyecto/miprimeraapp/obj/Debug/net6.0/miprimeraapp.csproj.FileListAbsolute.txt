@@ -1,0 +1,15 @@
+C:\Users\use\proyecto\miprimeraapp\bin\Debug\net6.0\miprimeraapp.exe
+C:\Users\use\proyecto\miprimeraapp\bin\Debug\net6.0\miprimeraapp.deps.json
+C:\Users\use\proyecto\miprimeraapp\bin\Debug\net6.0\miprimeraapp.runtimeconfig.json
+C:\Users\use\proyecto\miprimeraapp\bin\Debug\net6.0\miprimeraapp.dll
+C:\Users\use\proyecto\miprimeraapp\bin\Debug\net6.0\ref\miprimeraapp.dll
+C:\Users\use\proyecto\miprimeraapp\bin\Debug\net6.0\miprimeraapp.pdb
+C:\Users\use\proyecto\miprimeraapp\obj\Debug\net6.0\miprimeraapp.csproj.AssemblyReference.cache
+C:\Users\use\proyecto\miprimeraapp\obj\Debug\net6.0\miprimeraapp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\use\proyecto\miprimeraapp\obj\Debug\net6.0\miprimeraapp.AssemblyInfoInputs.cache
+C:\Users\use\proyecto\miprimeraapp\obj\Debug\net6.0\miprimeraapp.AssemblyInfo.cs
+C:\Users\use\proyecto\miprimeraapp\obj\Debug\net6.0\miprimeraapp.csproj.CoreCompileInputs.cache
+C:\Users\use\proyecto\miprimeraapp\obj\Debug\net6.0\miprimeraapp.dll
+C:\Users\use\proyecto\miprimeraapp\obj\Debug\net6.0\ref\miprimeraapp.dll
+C:\Users\use\proyecto\miprimeraapp\obj\Debug\net6.0\miprimeraapp.pdb
+C:\Users\use\proyecto\miprimeraapp\obj\Debug\net6.0\miprimeraapp.genruntimeconfig.cache
